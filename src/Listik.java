@@ -8,6 +8,9 @@ public class Listik implements Iterable<Integer>{
     public void addNumber(Integer num){
         listik.add(num);
     }
+    public int size(){
+        return listik.size();
+    }
 
     @Override
     public Iterator<Integer> iterator() {
