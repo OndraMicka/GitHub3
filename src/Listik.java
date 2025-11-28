@@ -16,4 +16,7 @@ public class Listik implements Iterable<Integer>{
     public Iterator<Integer> iterator() {
         return null;
     }
+    public int get(int index){
+        return listik.get(index);
+    }
 }
