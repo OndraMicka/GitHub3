@@ -5,7 +5,11 @@ import java.util.Iterator;
 public class Listik implements Iterable<Integer>{
     private ArrayList<Integer> listik;
 
-    public void addNumber(Integer num){
+    public Listik() {
+        listik =new ArrayList<>();
+    }
+
+    public void addNumber(int num){
         listik.add(num);
     }
     public int size(){

@@ -7,7 +7,7 @@ public class IteratorListik implements Iterator<Integer> {
 
     public IteratorListik(Listik listik) {
         this.listik = listik;
-        this.aktualniIndex = listik.size();
+        this.aktualniIndex = listik.size()-1;
     }
 
     @Override
