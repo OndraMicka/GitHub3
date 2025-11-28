@@ -14,7 +14,7 @@ public class Listik implements Iterable<Integer>{
 
     @Override
     public Iterator<Integer> iterator() {
-        return null;
+        return new IteratorListik(this);
     }
     public int get(int index){
         return listik.get(index);
